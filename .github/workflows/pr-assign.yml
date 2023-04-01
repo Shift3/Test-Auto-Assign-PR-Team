@@ -13,5 +13,5 @@ jobs:
       - name: "Assign 'pr-team' to PR"
         uses: rowi1de/auto-assign-review-teams@v1.1.3
         with:
-          repo-token: ${{ secrets.SECRET_KEY }}
-          teams: "pr-team"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          teams: "PR Team"
