@@ -13,8 +13,8 @@ jobs:
       - uses: rowi1de/auto-assign-review-teams@v1.1.3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          # org: "Shift3" #only needed for  pick-one-from-persons-or-team=true
-          teams: "@Shift3/pr-team" # only works for GitHub Organisation/Teams
+          org: "Shift3" #only needed for  pick-one-from-persons-or-team=true
+          teams: "pr-team" # only works for GitHub Organisation/Teams
           # persons: "" # add individual persons here
           # include-draft: false # Draft PRs will be skipped (default: false)
           # skip-with-manual-reviewers: 1 # Skip this action, if the number of reviwers was already assigned (default: 0)
