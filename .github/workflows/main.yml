@@ -12,7 +12,7 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           org: "Shift3" #only needed for  pick-one-from-persons-or-team=true
-          teams: "PR-Team" # only works for GitHub Organisation/Teams
+          teams: "pr-team" # only works for GitHub Organisation/Teams
           persons: "" # add individual persons here
           include-draft: false # Draft PRs will be skipped (default: false)
           skip-with-manual-reviewers: 0 # Skip this action, if the number of reviwers was already assigned (default: 0)
