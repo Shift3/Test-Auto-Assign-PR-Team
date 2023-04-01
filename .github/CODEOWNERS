@@ -12,6 +12,7 @@
 # modifies JS files, only @js-owner and not the global
 # owner(s) will be requested for a review.
 *.js @Shift3/devs-react
+
 *.ts @Shift3/bwtc-devops
 
 # Default if no one above gets assigned
